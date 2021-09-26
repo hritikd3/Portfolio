@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root {
+    --primary-color: #5CBD78;
+    --dark-gray: #4B5563;
+    --off-white: #F3F4F6;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/**Containers**/
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+
+  
+}
+
+/**Links**/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
+
+/**Lists**/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+}
+
+/**Navigation**/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation>li {
+    display: inline-block;
+}
+
+.link-nav {
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.nav-prop {
+    text-align: right;
+}
+
+.nav-brand-name {
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-brand-slogan {
+    margin-left: 3rem;
+    font-size: 0.6rem;
+}
+
+.nav-link-active {
+    font-weight: bold;
+}
+
+/**Header**/
+
+.header {
+    padding: 2rem;
+}
+
+.header-image {
+    max-width: 100%;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading {
+    font-size: 2rem;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.header-inverted {
+    color: var(--primary-color);
+}
+
+.project {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+/**Section**/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-ow {
+    background-color: var(--off-white);
+}
+
+/**Footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+}
+
+/**Credit**/
+
+.credit {
+    text-align: center;
+    margin: auto;
+}
